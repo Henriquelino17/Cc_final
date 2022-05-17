@@ -1,22 +1,52 @@
-body {
-    font-family: "Roboto Mono", monospace;
-    min-height: 600px;
-    background-image: url("https://img.directindustry.com/pt/images_di/photo-g/39799-13032814.jpg");
-    
-    background-color: #000000;
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
- 
+body{
+  font-family: "Roboto Mono", monospace;
+  min-height: 1000px;
+  background-image: url("https://s2.glbimg.com/p5jZqWt5fySTb62T0PUMELVXXzk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/X/1/fdOGu2SfWyj8EbHqNE4g/csnminerio.jpg");
+  
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
   
   h1 {
-    text-align: center;
+    text-align: left;
     color: #07aa8f;
     padding: 15px;
     top: 5px;
   }
-
+  .header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 17.5em;
+    background: #35302D;
+  }
+  .logo {
+    text-transform: capitalize;
+    font: 110 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }  
+  .logo a {
+    display: block;
+    padding: 0em 0;
+    color: #fc9c0d;
+    text-decoration: none;
+    transition: .1s linear color;
+  }
+  .logo a:hover {
+    color: rgb(247, 9, 9);
+  }
+  .logo a:hover span {
+    color: #DF4500;
+  }
+  .logo span {
+    font-weight: 700;
+    transition: .0s linear color;
+  }
   h2 {
     color: #ffffff;
     font-family: "Times New Roman", Times, serif;
@@ -24,18 +54,25 @@ body {
   h3 {
     text-align: center;
     background: transparent;
-    color: #ffffff;
+    color: #aab8a7;
     font-family: "Times New Roman", Times, serif;
   }
   h4 {
-    color: #ffffff;
+    color: #d30000;
   }
   .resultado {
     color:#ffffff ;
     text-align: center;
     margin-top: 30px;
   }
+
+  .botao02 {
+    color:#fc790d;
   
+    border-style:hidden;
+
+  }
+
   .page-logo {
     width: 300px;
   }
